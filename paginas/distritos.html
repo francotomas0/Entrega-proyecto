@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css">
 
@@ -13,11 +16,12 @@
 <body>
 
     <div class="contenedor">
+        <!-- Inicio Header -->
         <div class="header">
             <div class="logo">
                 <img src="../imagenes/icono.png" alt="">
                 <h1>NY CITY</h1>
-            </div>            
+            </div>     
 
             <ul>
                 <li class="listas-index"> <a href="../index.html"> Inicio </a> </li>
@@ -27,14 +31,20 @@
                 <li class="listas-index"> <a href="contacto.html"> Contacto </a> </li>
             </ul>
         </div>
+        <!-- Fin Header -->
 
+
+        <!-- Inicio seccion principal -->
         <div class="seccion-principal">
             <h2>Distritos</h2>
             <p class="parrafo-distrito">Nueva York está compuesta por cinco distritos llamados oficialmente boroughs: Manhattan, Brooklyn, Queens, Bronx y Staten Island. Un borough se podría definir de forma similar a un municipio en España.</p>
             <p class="parrafo-distrito">Cada borough coincide con un condado de Nueva York: Manhattan coincide con el Condado de Nueva York, Brooklyn con Kings, Queens con Queens, Bronx con Bronx y Staten Island con Richmond. Hasta 1898, fecha en que se unieron estos condados, la ciudad de Nueva York estaba formada únicamente por Manhattan.</p>
             <p class="parrafo-distrito">Aunque existe un presidente por cada uno de los distritos de Nueva York, sus funciones son muy limitadas, ya que la gestión está muy centralizada en el Alcalde de Nueva York. Para no focalizar la atención en Manhattan, muchas veces en política se refieren a Nueva York como "the Five Boroughs".</p>
         </div>
+        <!-- Fin seccion principal -->
 
+
+        <!-- Inicio Manhattan -->
         <div class="manhattan">
             <img src="../imagenes/grid-manhattan.jpg" alt="" width="400" height="300">
             <h2>Manhattan</h2>
@@ -53,7 +63,10 @@
             <p class="parrafo-distrito">En Manhattan se concentra el 90% de las atracciones de Nueva York. La zona de Manhattan conocida como Midtown, al norte de la calle 31, concentra toda la vida del borough. En esta zona encontrarán el inigualable Empire State Bulding, el complejo Rockefeller Center, el sorprendente Chrysler Building, el fascinante Times Square, el controvertido MoMA y muchas otras visitas imprescindibles.</p>
             <p class="parrafo-distrito">El sur de Manhattan fue tan importante en el pasado (fue aquí donde comenzó el desarrollo de Nueva York) como lo es en la actualidad (en esta zona se encuentra Wall Street y el distrito financiero que determina la economía mundial).</p>
         </div>
+        <!-- Fin Manhattan -->
 
+
+        <!-- Inicio Brooklyn -->
         <div class="brooklyn">
             <img src="../imagenes/grid-brooklyn.jpg" alt="" width="400" height="300">
             <h2>Brooklyn</h2>
@@ -69,7 +82,10 @@
 
             <p class="parrafo-distrito">Además de estos lugares, al sur de Brooklyn se encuentra la famosa playa y parque de atracciones de Coney Island.</p>
         </div>
+        <!-- Fin Brooklyn -->
 
+
+        <!-- Inicio Queens -->
         <div class="queens">
             <img src="../imagenes/grid-queens.jpg" alt="" width="400" height="300">
             <h2>Queens</h2>
@@ -84,7 +100,10 @@
             <h3>Que podemos encontrar en Queens</h3>
             <p class="parrafo-distrito">Además del museo P.S.1 Contemporary Art Center (también llamado MoMA PS1), en el distrito de Queens podéis visitar el American Museum of the Moving Image (dedicado al cine y a la televisión, contiene más de 125.000 objetos) y la Bowne House (la casa más antigua de Queens, construida por John Bowne en 1661).</p>
         </div>
+        <!-- Fin Queens -->
 
+
+        <!-- Inicio Bronx -->
         <div class="bronx">
             <img src="../imagenes/grid-bronx.jpg" alt="" width="400" height="300">
             <h2>Bronx</h2>
@@ -96,7 +115,10 @@
                 <li  class="li-distritos">New York Botanical Garden:El paraíso de los amantes de la jardinería y el jardín botánico más importante del estado de Nueva York.</li>
             </ul>
         </div>
+        <!-- Fin Bronx -->
 
+
+        <!-- Inicio Taten Island -->
         <div class="staten-island">
            <img src="../imagenes/grid-staten-island.jpg" alt="" width="400" height="300">
            <h2>Staten Island</h2>
@@ -107,7 +129,10 @@
            <p class="parrafo-distrito">Para muchos turistas, la visita a Staten Island ya queda compensada con el paseo en ferry, una forma económica de ver el skyline de Manhattan desde la distancia.</p>
            <p class="parrafo-distrito">Hasta 1975, Staten Island fue llamada como el condado que ocupa, Richmond. Ese año el ayuntamiento decidió cambiar el nombre al original con el que la denominaron los holandeses cuando la colonizaron.</p>
         </div>
+        <!-- Fin Staten Island -->
 
+
+        <!-- Inicio Footer -->
         <div class="footer">
             <div class="todo" id="titulo-parrafo">
                 <div class="logo">
@@ -123,11 +148,15 @@
             </div>
             
             <div class="boton" id="titulo-parrafo">
-                <button> <a href="distritos.html"><img src="../imagenes/arrow-circle-up (1).png" alt=""></a> </button>
+                <button type="button" class="btn btn-success"><a href="distritos.html">Inicio</a></button>
             </div>
             
         </div>   
+        <!-- Fin Footer -->
+        
     </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 </html>

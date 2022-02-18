@@ -209,3 +209,11 @@ body {
 
 /* Fin contacto.html */
 
+
+/* Estilos del boton */
+.boton a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+/* Fin estilos del boton */
